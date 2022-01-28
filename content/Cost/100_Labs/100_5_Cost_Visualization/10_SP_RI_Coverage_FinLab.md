@@ -26,19 +26,19 @@ This exercise requires you have enabled AWS Cost Explorer, this can be done by f
 ## Steps: 
 
 1. Click on **Cost Explorer** to get to the default view:
-![Images/Picture1](/Cost/100_Savings_Plan_and_Reserved_Instance_Coverage_FinLab/Images/Picture1.png)
+![Images/SavingsPlanCoverage1.png](/Cost/100_5_Cost_Visualization/Images/SavingsPlanCoverage1.png?classes=lab_picture_small)
 
 2. Under the **Savings Plan** section, choose **Coverage Report**:
-![Images/Picture2](/Cost/100_Savings_Plan_and_Reserved_Instance_Coverage_FinLab/Images/Picture2.png)
+![Images/SavingsPlanCoverage2.png](/Cost/100_5_Cost_Visualization/Images/SavingsPlanCoverage2.png?classes=lab_picture_small)
 
 3. Click the **Down Arrow** to change the date range to **Last 6 Months**:
-![Images/Picture3](/Cost/100_Savings_Plan_and_Reserved_Instance_Coverage_FinLab/Images/Picture3.png)
+![Images/SavingsPlanCoverage3.png](/Cost/100_5_Cost_Visualization/Images/SavingsPlanCoverage3.png?classes=lab_picture_small)
 
 4. Click on the **Down Arrow** to change the interval to **Monthly**:
-![Images/Picture4](/Cost/100_Savings_Plan_and_Reserved_Instance_Coverage_FinLab/Images/Picture4.png)
+![Images/SavingsPlanCoverage4.png](/Cost/100_5_Cost_Visualization/Images/SavingsPlanCoverage4.png?classes=lab_picture_small)
 
 5. Click the **Download CSV** button below the graph:
-![Images/Picture5](/Cost/100_Savings_Plan_and_Reserved_Instance_Coverage_FinLab/Images/Picture5.png)
+![Images/SavingsPlanCoverage5.png](/Cost/100_5_Cost_Visualization/Images/SavingsPlanCoverage5.png?classes=lab_picture_small)
 
 6. Once downloaded, open the file in a **Spreadsheet editor**
 

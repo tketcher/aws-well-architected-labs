@@ -26,36 +26,36 @@ This exercise requires you have enabled AWS Cost Explorer, this can be done by f
 ## Steps:
 
 1. Click on **Cost Explorer** to navigate to the default view:
-![Images/Picture1](/Cost/100_Amazon_S3_Unit_Cost_FinLab/Images/Picture1.png)
+![Images/S3UnitCost1.png](/Cost/100_5_Cost_Visualization/Images/S3UnitCost1.png?classes=lab_picture_small)
 
 2. Click the **down arrow** to change the date range, select **Last 6 Months** and click **Apply**:
-![Images/Picture2](/Cost/100_Amazon_S3_Unit_Cost_FinLab/Images/Picture2.png)
+![Images/S3UnitCost2.png](/Cost/100_5_Cost_Visualization/Images/S3UnitCost2.png?classes=lab_picture_small)
 
 3. Click the **down arrow** to change the interval, select **Monthly** and click **Apply**:
-![Images/Picture3](/Cost/100_Amazon_S3_Unit_Cost_FinLab/Images/Picture3.png)
+![Images/S3UnitCost3.png](/Cost/100_5_Cost_Visualization/Images/S3UnitCost3.png?classes=lab_picture_small)
 
 4. Navigate to the **Group By** section and select **None**:
-![Images/Picture4](/Cost/100_Amazon_S3_Unit_Cost_FinLab/Images/Picture4.png)
+![Images/S3UnitCost4.png](/Cost/100_5_Cost_Visualization/Images/S3UnitCost4.png?classes=lab_picture_small)
 
 5. Navigate to the **Filters** on the right hand side and filter **Service** to see only **S3** click **Apply filters**:
-![Images/Picture5](/Cost/100_Amazon_S3_Unit_Cost_FinLab/Images/Picture5.png)
+![Images/S3UnitCost5.png](/Cost/100_5_Cost_Visualization/Images/S3UnitCost5.png?classes=lab_picture_small)
 
 6. Filter **Usage Type Group** to see anything with the prefix of **S3:Storage** click **Apply filters**:
-![Images/Picture6](/Cost/100_Amazon_S3_Unit_Cost_FinLab/Images/Picture6.png)
+![Images/S3UnitCost6.png](/Cost/100_5_Cost_Visualization/Images/S3UnitCost6.png?classes=lab_picture_small)
 
 7. Click on More filters, Filter **Charge Type** to only see **Usage** click **Apply filters**:
-![Images/Picture7](/Cost/100_Amazon_S3_Unit_Cost_FinLab/Images/Picture7.png)
+![Images/S3UnitCost7.png](/Cost/100_5_Cost_Visualization/Images/S3UnitCost7.png?classes=lab_picture_small)
 
 8. Click the **Download CSV** button below the graph:
-![Images/Picture8](/Cost/100_Amazon_S3_Unit_Cost_FinLab/Images/Picture8.png)
+![Images/S3UnitCost8.png](/Cost/100_5_Cost_Visualization/Images/S3UnitCost8.png?classes=lab_picture_small)
 
 9. Once downloaded, open the file in a **Spreadsheet editor**:
 
 10. **Add a column** to the right of the data in the first empty column and label it **S3 Unit Cost**:
-![Images/Picture11](/Cost/100_Amazon_S3_Unit_Cost_FinLab/Images/Picture11.png)
+![Images/S3UnitCost9.png](/Cost/100_5_Cost_Visualization/Images/S3UnitCost9.png?classes=lab_picture_small)
 
 11. In that column, add the equation of **Total Cost / Total usage (GB-Month)** and apply to all rows with data:
-![Images/Picture10](/Cost/100_Amazon_S3_Unit_Cost_FinLab/Images/Picture10.png)
+![Images/S3UnitCost10.png](/Cost/100_5_Cost_Visualization/Images/S3UnitCost10.png?classes=lab_picture_small)
 
 12. You will now have a monthly report of your Amazon S3 Unit Cost over the last 6 months. 
 

@@ -26,33 +26,33 @@ This exercise requires you have enabled AWS Cost Explorer, this can be done by f
 ## Steps:
 
 1. Click on **Cost Explorer** to navigate to the default view:
-![Images/Picture1](/Cost/100_Amazon_EC2_Unit_Cost_FinLab/Images/Picture1.png)
+![Images/EC2UnitCost1.png](/Cost/100_5_Cost_Visualization/Images/EC2UnitCost1.png?classes=lab_picture_small)
 
 2. Click the **down arrow** to change the date range, select **Last 6 Months** and click **Apply**:
-![Images/Picture2](/Cost/100_Amazon_EC2_Unit_Cost_FinLab/Images/Picture2.png)
+![Images/EC2UnitCost2.png](/Cost/100_5_Cost_Visualization/Images/EC2UnitCost2.png?classes=lab_picture_small)
 
 3. Click the **down arrow** to change the interval, select **Monthly** and click **Apply**:
-![Images/Picture3](/Cost/100_Amazon_EC2_Unit_Cost_FinLab/Images/Picture3.png)
+![Images/EC2UnitCost3.png](/Cost/100_5_Cost_Visualization/Images/EC2UnitCost3.png?classes=lab_picture_small)
 
 4. Navigate to the **Group By** section and select **Service**:
-![Images/Picture4](/Cost/100_Amazon_EC2_Unit_Cost_FinLab/Images/Picture4.png)
+![Images/EC2UnitCost4.png](/Cost/100_5_Cost_Visualization/Images/EC2UnitCost4.png?classes=lab_picture_small)
 
 5. Navigate to the **Filters** on the right hand side and filter in the **Usage Type Group** to see only **EC2 Running Hours**:
-![Images/Picture5](/Cost/100_Amazon_EC2_Unit_Cost_FinLab/Images/Picture5.png)
+![Images/EC2UnitCost5.png](/Cost/100_5_Cost_Visualization/Images/EC2UnitCost5.png?classes=lab_picture_small)
 
 6. Navigate to the **Advanced Options** section underneath the filters and select **Show Cost as: Amortized**:
-![Images/Picture6](/Cost/100_Amazon_EC2_Unit_Cost_FinLab/Images/Picture6.png)
+![Images/EC2UnitCost6.png](/Cost/100_5_Cost_Visualization/Images/EC2UnitCost6.png?classes=lab_picture_small)
 
 7. Click the **Download CSV** button below the graph:
-![Images/Picture7](/Cost/100_Amazon_EC2_Unit_Cost_FinLab/Images/Picture7.png)
+![Images/EC2UnitCost7.png](/Cost/100_5_Cost_Visualization/Images/EC2UnitCost7.png?classes=lab_picture_small)
 
 8. Once downloaded, open the file in a **Spreadsheet editor**
 
 9. **Add a column** to the right of the data in the first empty column and label it **EC2 Unit Cost**:
-![Images/Picture8](/Cost/100_Amazon_EC2_Unit_Cost_FinLab/Images/Picture8.png)
+![Images/EC2UnitCost8.png](/Cost/100_5_Cost_Visualization/Images/EC2UnitCost8.png?classes=lab_picture_small)
 
 10. In Column F, add the equation of **Total Cost / Total usage (Hrs)** and apply to all rows with data:
-![Images/Picture9](/Cost/100_Amazon_EC2_Unit_Cost_FinLab/Images/Picture9.png)
+![Images/EC2UnitCost9.png](/Cost/100_5_Cost_Visualization/Images/EC2UnitCost9.png?classes=lab_picture_small)
 
 11. You will now have a monthly report of your Amazon EC2 Unit Cost over the last 6 months. 
 

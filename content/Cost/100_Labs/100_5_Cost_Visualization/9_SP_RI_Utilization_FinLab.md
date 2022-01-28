@@ -26,19 +26,19 @@ This exercise requires you have enabled AWS Cost Explorer, this can be done by f
 ## Steps: 
 
 1. Click on **Cost Explorer** to get to the default view:
-![Images/Picture1](/Cost/100_Savings_Plan_and_Reserved_Instance_Utilization_FinLab/Images/Picture1.png)
+![Images/SavingsPlanUtilization1.png](/Cost/100_5_Cost_Visualization/Images/SavingsPlanUtilization1.png?classes=lab_picture_small)
 
-2. Under the **Savings Plan** or **Reserved Instance** section, choose **Utilization Report**:
-![Images/Picture2](/Cost/100_Savings_Plan_and_Reserved_Instance_Utilization_FinLab/Images/Picture2.png)
+2. Under the **Savings Plan** section, choose **Utilization Report**:
+![Images/SavingsPlanUtilization2.png](/Cost/100_5_Cost_Visualization/Images/SavingsPlanUtilization2.png?classes=lab_picture_small)
 
 3. Click the **Down Arrow** to change the date range to **Last 6 Months**:
-![Images/Picture3](/Cost/100_Savings_Plan_and_Reserved_Instance_Utilization_FinLab/Images/Picture3.png)
+![Images/SavingsPlanUtilization3.png](/Cost/100_5_Cost_Visualization/Images/SavingsPlanUtilization3.png?classes=lab_picture_small)
 
 4. Click on the **Down Arrow** to change the interval to **Monthly**:
-![Images/Picture4](/Cost/100_Savings_Plan_and_Reserved_Instance_Utilization_FinLab/Images/Picture4.png)
+![Images/SavingsPlanUtilization4.png](/Cost/100_5_Cost_Visualization/Images/SavingsPlanUtilization4.png?classes=lab_picture_small)
 
 5. Click the **Download CSV** button below the graph:
-![Images/Picture5](/Cost/100_Savings_Plan_and_Reserved_Instance_Utilization_FinLab/Images/Picture5.png)
+![Images/SavingsPlanUtilization5.png](/Cost/100_5_Cost_Visualization/Images/SavingsPlanUtilization5.png?classes=lab_picture_small)
 
 6. Once downloaded, open the file in a **Spreadsheet editor**
 
