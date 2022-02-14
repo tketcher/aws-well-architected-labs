@@ -40,8 +40,8 @@ This exercise requires you have enabled AWS Cost Explorer, this can be done by f
 5. Navigate to the **Filters** on the right hand side and filter **Service** to see only **S3** click **Apply filters**:
 ![Images/S3UnitCost5.png](/Cost/100_5_Cost_Visualization/Images/S3UnitCost5.png?classes=lab_picture_small)
 
-6. Filter **Usage Type Group** to see anything with the prefix of **S3:Storage** click **Apply filters**:
-![Images/S3UnitCost6.png](/Cost/100_5_Cost_Visualization/Images/S3UnitCost6.png?classes=lab_picture_small)
+6. Filter **Usage Type** to see anything with the prefix of **TimedStorage** click **Apply filters**:
+![Images/S3UnitCost11.png](/Cost/100_5_Cost_Visualization/Images/S3UnitCost11.png?classes=lab_picture_small)
 
 7. Click on More filters, Filter **Charge Type** to only see **Usage** click **Apply filters**:
 ![Images/S3UnitCost7.png](/Cost/100_5_Cost_Visualization/Images/S3UnitCost7.png?classes=lab_picture_small)

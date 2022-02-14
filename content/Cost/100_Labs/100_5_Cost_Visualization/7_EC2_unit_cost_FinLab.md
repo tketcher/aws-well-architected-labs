@@ -43,6 +43,8 @@ This exercise requires you have enabled AWS Cost Explorer, this can be done by f
 6. Navigate to the **Advanced Options** section underneath the filters and select **Show Cost as: Amortized**:
 ![Images/EC2UnitCost6.png](/Cost/100_5_Cost_Visualization/Images/EC2UnitCost6.png?classes=lab_picture_small)
 
+**Note:** view here for more details on Amortized vs. Unblended views: https://docs.aws.amazon.com/cost-management/latest/userguide/ce-advanced.html
+
 7. Click the **Download CSV** button below the graph:
 ![Images/EC2UnitCost7.png](/Cost/100_5_Cost_Visualization/Images/EC2UnitCost7.png?classes=lab_picture_small)
 
@@ -59,5 +61,7 @@ This exercise requires you have enabled AWS Cost Explorer, this can be done by f
 12. What does this data mean? 
 - If your EC2 unit cost has **decreased**, this is good! This means that, on average, each EC2 instance hour you ran was cheaper than it was the prior month. It can be the result of committing to a new pricing model like a Savings Plan, utilizing Spot Instances, or replacing existing usage with lower cost alternatives (rightsizing). 
 - If your EC2 unit cost has **increased** from last month, this is an opportunity to investigate the causes. Potential causes can be the utilization of a new instance type, or the expriation of a Savings Plan that previously covered EC2 usage in your account. You can use Cost Explorer to dive deeper into your cost and usage, and understand how trends have changed. 
+
+**Note:** You can convert this metric to vCPU Unit Cost. Each EC2-Instance has an instance size footprint. This is determined through a normalization factor which can be found here: https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ri-modifying.html. To calculate the vCPU unit cost, follow steps 1-8 from above. After step 8, add a column labled Normalization Factor and add in the value associated to each EC2-Instance type. Then, multiply the normalization factor by the Usage Hours to get the normalized vCPU hours. Finally, you can calculate the vCPU unit cost by taking the Total Spend divided by the normalized vCPU Hours.  
 
 {{< prev_next_button link_prev_url="../3_sp_coverage/" link_next_url="../5_ri_coverage/" />}}
